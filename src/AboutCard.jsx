@@ -69,7 +69,7 @@ const AboutMeCard = () => {
           <img src={myphoto} alt="About Me" />
         </div>
       </div>
-      <div style={{ display: "flex", position: "relative", zIndex: 1 }}>
+      <div className = "mobile-class" style={{ display: "flex", position: "relative", zIndex: 1 }}>
         {arrayofObjects.map((data, index) => (
           <Cube
             key={index}

@@ -3,13 +3,6 @@ import "./Roadmap.css";
 const experiences = [
   {
     year: "2021",
-    role: "Embedded Systems Engineer",
-    company: "OneNet Pakistan",
-    description:
-      "Developed and maintained embedded systems software for various IoT devices. Collaborated with cross-functional teams to design and implement system-level features.",
-  },
-  {
-    year: "2021",
     role: "WordPress Developer",
     company: "ActiveBiz",
     description:

@@ -14,18 +14,7 @@ function App() {
     <>
       <Heading />
       <div
-        style={{
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center",
-          width: "40vw",
-          height: "40vh",
-          overflow: "hidden",
-          position: "absolute",
-          top: "50px",
-          left: "900px",
-          zIndex: 1,
-        }}
+         className="canvas-container"
       >
         <Canvas>
           <ambientLight />

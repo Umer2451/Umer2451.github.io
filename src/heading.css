@@ -1,0 +1,60 @@
+.myheading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .myheading h1 {
+    font-size: 4rem; /* Adjust for larger screens */
+    margin: 0;
+  }
+  
+  .myheading p {
+    font-size: 1.3rem; /* Base font size for the profession */
+    margin: 0;
+  }
+  
+  .myheading b {
+    font-size: 1.3rem; /* Base font size for the subtitle */
+    font-family: 'Poppins', sans-serif;
+    margin-top: 10px;
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 1200px) {
+    .myheading h1 {
+      font-size: 3.5rem;
+    }
+  
+    .myheading p, .myheading b {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .myheading h1 {
+      font-size: 3rem;
+    }
+  
+    .myheading p, .myheading b {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .myheading {
+      padding: 10px;
+    }
+  
+    .myheading h1 {
+      font-size: 2.5rem;
+    }
+  
+    .myheading p, .myheading b {
+      font-size: 0.9rem;
+    }
+  }
+  

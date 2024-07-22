@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import "./heading.css"
 function Heading(){
   const professions = [
     { id: 1, title: "Software Engineer" },
@@ -22,15 +23,11 @@ function Heading(){
     return () => clearInterval(interval);
   }, []);
     return(
-        <div className="myheading">
-          <h1 style={{textAlign: "center"}}>Umer Naeem</h1>
-        <p style={{fontSize: "1.3rem", textAlign: "center"}}>
-          I'm a {professions[currentProfessionIndex].title}
-        </p>
-        <b style={{fontSize: "1.3rem", textAlign: "center", fontFamily: "Poppins"}}>
-          Interactive Portfolio
-        </b>
-        </div>
+      <div className="myheading">
+      <h1>Umer Naeem</h1>
+      <p>I'm a {professions[currentProfessionIndex].title}</p>
+      <b>Interactive Portfolio</b>
+    </div>
     )
 }
 export default Heading;
